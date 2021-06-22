@@ -194,7 +194,7 @@ h3 {
 
 .author {
     width: 200px;
-    margin: auto;
+    margin: 22px auto;
 }
 
 .flex-author {
@@ -206,15 +206,16 @@ h3 {
 .ava {
     width: 70px;
     height: 70px;
-    margin: 15px 0;
 }
 
 .name {
+    margin: 8px 0 12px;
+
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 27px;
     align-items: center;
     text-align: right;
 
@@ -226,7 +227,7 @@ h3 {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 19px;
     align-items: center;
     text-align: right;
 
@@ -691,14 +692,32 @@ h3 {
 }
 
 .margins {
-    margin: 10px 59px;
+    margin: 5px 59px;
 }
 
 .text_input {
     margin: 0 59px;
 }
 
+.contact_input_set-width {
+    width: 470px;
+  }
+
 .button_center {
-    margin: 0 auto;
+    margin: 68px auto 0;
     display: block;
+}
+
+.contact_name_margins {
+    margin: 25px 59px;
+}
+
+.contact_line_form {
+    width: 478px;
+    height: 1px;
+    background-color: #BDBDBD;
+}
+
+.contact_textarea {
+    margin: 17px 0 0;
 }
