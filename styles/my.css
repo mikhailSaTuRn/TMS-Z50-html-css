@@ -92,7 +92,7 @@ h3 {
 
 .container3 {
     width: 100%;
-    background-image: url("bg.png");
+    background-image: url("../images/bg.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -543,7 +543,7 @@ h3 {
 .main_sec {
     width: 100%;
     height: calc(100vh - 70px);
-    background-image: url("background_main.png");
+    background-image: url("../images/background_main.png");
     background-position: center;
     background-size: cover;
     position: relative;
