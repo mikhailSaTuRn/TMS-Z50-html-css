@@ -37,7 +37,7 @@ h3 {
     line-height: 27px;
 }
 
-.line{
+.line {
     text-align: center;
     width: 64px;
     height: 2px;
@@ -57,7 +57,7 @@ h3 {
     margin: 30px;
 }
 
-.container2 {
+.flex_space-between_center {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -90,7 +90,7 @@ h3 {
     text-align: center;
 }
 
-.container3 {
+.container_bg {
     width: 100%;
     background-image: url("../images/bg.png");
     background-position: center;
@@ -101,7 +101,7 @@ h3 {
 
 }
 
-.container3:after {
+.container_bg:after {
     content: '';
     display: block;
     position: absolute;
@@ -117,39 +117,21 @@ h3 {
     z-index: 2;
 }
 
-.title2 {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 36px;
-    line-height: 42px;
-
+.title_white {
     color: #ffffff;
-
-    text-align: center;
 }
 
-.line2 {
-    text-align: center;
-    width: 64px;
-    height: 2px;
+.line_white {
+
     background-color: #ffffff;
     margin: 48px auto 30px;
 }
 
-.subtitle2 {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-
+.subtitle_white {
     color: rgba(255, 255, 255, 0.8);
-    margin: 30px;
 }
 
-.press {
+.button_black {
     width: auto;
     height: 42px;
     padding: 11px 26px;
@@ -429,7 +411,7 @@ h3 {
     object-position: center top;
 }
 
-.press_tab {
+.button_red {
     min-width: 135px;
     height: 42px;
     margin: 70px 0 0;
@@ -606,7 +588,7 @@ h3 {
     color: rgba(255, 255, 255, 0.8);
 }
 
-.press_main {
+.button_main {
     margin: 0 0 32px;
 
     width: 135px;
@@ -667,7 +649,7 @@ h3 {
     justify-content: flex-start;
 }
 
-.press_start {
+.button_start {
     width: 370px;
     height: 54px;
     margin: 40px 0 0 0;
@@ -697,6 +679,7 @@ h3 {
 
 .text_input {
     margin: 0 59px;
+    border-bottom: 1px solid #BDBDBD;
 }
 
 .contact_input_set-width {
@@ -712,12 +695,7 @@ h3 {
     margin: 30px 59px;
 }
 
-.contact_line_form {
-    width: 478px;
-    height: 1px;
-    background-color: #BDBDBD;
-}
-
 .contact_textarea {
     margin: 17px 0 0;
+    border-bottom: 1px solid #BDBDBD;
 }
